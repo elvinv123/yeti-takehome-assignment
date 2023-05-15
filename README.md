@@ -1,7 +1,8 @@
 # Yeti Takehome Assignment
 
 ## Usage
-1. Clone this repo to your machine and run `npm start` from the command line in the root directory to run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone this repo to your machine and run `npm install` from the command line in the root directory to install required dependencies.
+2. run `npm start` to run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Technologies Used
 
