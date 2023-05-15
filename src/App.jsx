@@ -7,11 +7,11 @@ import Box from '@mui/material/Box';
 
 function App() {
 
-  const [isMobile, setIsMobile] = useState(window.matchMedia('(max-width: 1050px)').matches)
+  const [isMobile, setIsMobile] = useState(window.matchMedia('(max-width: 800px)').matches)
   
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.matchMedia('(max-width: 1050px)').matches)
+      setIsMobile(window.matchMedia('(max-width: 800px)').matches)
     }
 
     window.addEventListener('resize', handleResize)
@@ -28,7 +28,7 @@ function App() {
       flexDirection='column'
       maxWidth='1260px'
       padding='0 30px'
-      overflow={isMobile ? null : 'hidden'}
+      overflow='hidden'
       margin={isMobile ? '27px 0 134px 0' : '27px auto 134px auto'}
     >
       <Nav isMobile={isMobile}/>

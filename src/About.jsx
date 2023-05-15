@@ -15,6 +15,7 @@ function About({isMobile}) {
       <Box
         display='flex'
         flexDirection='column'
+        width={isMobile ? '100%' : '771px'}
       >
         <Typography
           fontFamily='Eczar-SemiBold'
@@ -33,9 +34,9 @@ function About({isMobile}) {
         <Box 
           component='img'
           src={apples}
-          alt='' 
-          width={isMobile ? '322px' : '701px'}
-          height={isMobile ? '270px' : '493px'}
+          alt=''
+          maxWidth='100%'
+          height='auto'
           boxShadow={`${isMobile ? '32px 36px' :'70px 65px'} #d8d8d8`}
           marginRight={isMobile ? '32px' : '70px'}
         />

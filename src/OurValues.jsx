@@ -11,17 +11,22 @@ function OurValues({isMobile}) {
       justifyContent='space-between'
       alignItems='center'
     >
-      <Box 
-        component='img'
-        alt='' 
-        src={pyramid}
-        width={isMobile ? '327px' : '1074px'}
-        height={isMobile ? '174px' : '571px'}
-        boxShadow={`${isMobile ? '-27px -25px' :'-90px -83px'} #ebe9ea`}
-        marginLeft={isMobile ? '27px' : '80px'}
-      />
+      <Box
+        width='100%'
+        paddingLeft={isMobile ? '27px' : '108px'}
+      >
+        <Box 
+          component='img'
+          alt='' 
+          src={pyramid}
+          width='100%'
+          height='auto'
+          maxWidth='1074px'
+          boxShadow={`${isMobile ? '-27px -25px' :'-98px -83px'} #ebe9ea`}
+        />
+      </Box>
       <Typography
-        margin={isMobile ? '72px 0 10px 0' : '-93px 0 68px 0'}
+        margin={isMobile ? '72px 0 10px 0' : '-100px 0 68px 0'}
         fontFamily='Eczar-SemiBold'
         fontSize={isMobile ? '73px' : '120px'}
         color='#1e252c'

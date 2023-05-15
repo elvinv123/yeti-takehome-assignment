@@ -9,7 +9,7 @@ function Nav({isMobile}) {
       display='flex'
       flexDirection='row'
       justifyContent={isMobile ? 'flex-end' :'space-between'}
-      margin={isMobile ? null : '0 10px 110px 10px'}
+      margin={isMobile ? null : '0 10px 120px 10px'}
     >
       {!isMobile && 
         <Box 
